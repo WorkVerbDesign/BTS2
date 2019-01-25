@@ -1,0 +1,33 @@
+from datetime import datetime
+from dataBaseClass import Sub
+
+entry = "username"
+dateTime = datetime.utcnow()
+dbEntry = Sub.create(userName = entry,entryTime = dateTime)
+
+
+MY SQL you fuck:
+
+sqlite3
+.open dataBase.db
+
+FIRST:
+select id, userName, entryTime from Sub where userName is "octojay";
+
+status, userName, fontSize, positionX, positionY, gCode, entryTime
+status = 0: name entered 1: name placed 2:gcode ready 3: burnt to board
+
+REBURN WITH DATE:
+update Sub set status = 2 where id = 160;
+
+TOATS ENTRIES:
+select count(*) from <table>;
+
+EXIT SQLITE3
+.exit
+
+
+other shenanigans:
+update Sub set status = 0 where status = 2;
+ select min(id), userName from Sub where status  = 0;
+ select userName, MIN(entryTime) from Sub where status = 0;
