@@ -91,7 +91,6 @@ def placeNames():
     
     #create backing image based on db
     nameWasPlaced = Sub.select().where(Sub.status >= placed)
-    nameCnt = Sub.select().where(Sub.status >= placed).count()
     
     for place in nameWasPlaced:
         font = ImageFont.truetype(ttfFont, place.fontSize)

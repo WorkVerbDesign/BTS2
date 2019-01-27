@@ -1,7 +1,7 @@
 from datetime import datetime
 from dataBaseClass import Sub
 
-entry = "username"
+entry = "gunneer"
 dateTime = datetime.utcnow()
 dbEntry = Sub.create(userName = entry,entryTime = dateTime)
 
@@ -31,3 +31,7 @@ other shenanigans:
 update Sub set status = 0 where status = 2;
  select min(id), userName from Sub where status  = 0;
  select userName, MIN(entryTime) from Sub where status = 0;
+ 
+ 
+ fontsize bins:
+ SELECT fontSize, count(userName) FROM 'sub' group BY fontSize;

@@ -4,10 +4,10 @@
 # and dropping in screen mid-session
 
 from blessings import Terminal
-from datetime import datetime, timedelta
+from datetime import datetime
 from threading import Timer
-import time
 from dataBaseClass import Sub
+import settings
 
 t = Terminal()
 

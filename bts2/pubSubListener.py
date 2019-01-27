@@ -14,23 +14,31 @@ import consoleClass
 #user name vs display name:
 #need to check if display name has non ^[a-zA-Z0-9_]{4,25}$ chars use username instead 
 
+#flagish things
 pingstarttime = 0
 pingTwitch = 0
 SUBdidWork = 0
 
+#load settings from secret codes
 twitchOAuthToken = codes.twitchOAuth # this is generated at https://twitchapps.com/tokengen/ with scope "channel_subscriptions" and the api token from the dev dasboard
 channelID = codes.channelID #oh_bother number code
 userID = settings.pubSubUserId #lebtvlive
 
 #e4t5v345nz3sm is just a unique code we set to check for in the return from twitch
-#listenrequest = {"type": "LISTEN", "nonce": "e4t5v345nz3sm", "data": { "topics": ["whispers." + userID], "auth_token": twitchOAuthToken}} #this is what i tested it with for whisper messages
+#subscrobbles
 listenrequest = {"type": "LISTEN", "nonce": "e4t5v345nz3sm", "data": { "topics": ["channel-subscribe-events-v1." + channelID], "auth_token": twitchOAuthToken}} #this is for sub events
+
+#borts
+#listenrequest = {"type": "LISTEN", "nonce": "e4t5v345nz3sm", "data": { "topics": ["channel-bits-events-v1." + channelID], "auth_token": twitchOAuthToken}} #this is for sub events
+
 ws1 = ""
 
 #log file
 loggies = settings.wsLogFile
 
 def ws1_on_message(ws, message):
+    global pingstarttime
+    
     jsonReturn = json.loads(message)
     
     #log file
@@ -42,9 +50,9 @@ def ws1_on_message(ws, message):
     logOutput.close()
     
     if "type" in jsonReturn:
-    
         #Take care of pong responses
         if jsonReturn["type"] == "PONG": 
+            #reset flag
             pingstarttime = 0
             
             #console
@@ -82,6 +90,9 @@ def ws1_on_message(ws, message):
         elif jsonReturn["type"] == "MESSAGE": 
             #print(jsonReturn["data"]["message"])
             makeEntry(json.loads(jsonReturn["data"]["message"]))
+            #for borts, this is fuck
+            #poops = json.loads(jsonReturn["data"]["message"])
+            #makeEntry(poops["data"])
             
         else:
             #if there is anything else, shouldn't be
@@ -96,7 +107,7 @@ def makeEntry(message):
     logOutput.write(json.dumps(message))
     logOutput.write('\n')
     logOutput.write(datetime.utcnow().strftime('%Y,%m,%d,%H:%M:%S:%f'))
-    
+       
     #name checker
     #gift sub handler
     if 'recipient_user_name' in message.keys():
@@ -114,7 +125,11 @@ def makeEntry(message):
             
     #regular sub handler
     else:
-        dispName = message['display_name']
+        if 'display_name' not in message.keys():
+            dispName = "*"
+        else:
+            dispName = message['display_name']
+        
         usrName = message['user_name']
 
         if checkName(dispName):
@@ -155,8 +170,12 @@ def enterDb(entry):
 #called on a websocket connection error
 def ws1_on_error(ws, error): 
     global pingTwitch, SUBdidWork
+    
+    #flags are no bueno
     pingTwitch = 0
     SUBdidWork = 0
+    
+    #front panel
     LED_Blue.blink()
     
     #console
@@ -174,8 +193,11 @@ def ws1_on_error(ws, error):
 def ws1_on_close(ws):
     global pingTwitch, SUBdidWork
     
+    #flags scrubbed
     pingTwitch = 0
     SUBdidWork = 0
+    
+    #front panel
     LED_Blue.off()
     
     #console
@@ -190,8 +212,10 @@ def ws1_on_close(ws):
 #called when the websocket connection is opened
 def ws1_on_open(ws): 
     global pingTwitch
+    
     consoleClass.thread2 = "websocket opening"
     
+    #ping engine flag is go
     pingTwitch = 1
     
     #log file
@@ -216,7 +240,7 @@ def ws1_start():
         logOutput.write(" ws1 restart\n")
         logOutput.close()
         
-        #ping engine
+        #library function to run the socket
         ws1.run_forever()
 
 #send our listen request
@@ -229,7 +253,10 @@ def subToTopics():
 
 #Ping the server every 4 mins +- 10 sec as per twitch API requirement
 def pingTwitchServersToKeepTheConnectionAliveTask(): 
+    global pingstarttime
+    
     while True:
+        #check flag
         if pingTwitch:
             #console
             consoleClass.thread2 = "Pinging Twitch"
@@ -241,14 +268,19 @@ def pingTwitchServersToKeepTheConnectionAliveTask():
             #front panel
             LED_Blue.off()
             
-            #console
-            consoleClass.thread2 = "Pinging Twitch, waiting for response"
+            countdown = 10
             
-            #wait 10 sec for ping response
-            time.sleep(10)
-            
+            #wait for ping verbose
+            while countdown > 0:
+                #console
+                consoleClass.thread2 = "Pinging Twitch, waiting " + str(countdown) + "s for response"
+
+                #new timer
+                time.sleep(1)
+                countdown -= 1
+
             #if pingstarttime was not reset, close the connection
-            if not pingstarttime: 
+            if pingstarttime: 
                 consoleClass.thread2 = "start time was not reset?"
                 ws.close()
                 
@@ -259,17 +291,14 @@ def pingTwitchServersToKeepTheConnectionAliveTask():
                 #might want to make mm:ss time format here
                 
                 #console
-                consoleClass.thread2 = "Next Ping in " + countdown
+                consoleClass.thread2 = "Next Ping in " + str(countdown) + "s"
                 
                 #new timer
                 time.sleep(1)
                 countdown -= 1
-                
-            #time.sleep(240 + random.randrange(-10, 10)) #Sleep 4 min +/- 10sec (random is required by twitch api)
 
 def webSocketInit():
     global ws1
-    print("pubSub started, opening socket")
 
     #console
     consoleClass.thread2 = "pubSub Started"
@@ -280,10 +309,13 @@ def webSocketInit():
     logOutput.write(" pubSub Started\n")
     logOutput.close()
 
-    ws1 = websocket.WebSocketApp("wss://pubsub-edge.twitch.tv", on_message = ws1_on_message, on_error = ws1_on_error, on_close = ws1_on_close) #Create Websocket Client Object
+    #Create Websocket Client Object
+    ws1 = websocket.WebSocketApp("wss://pubsub-edge.twitch.tv", on_message = ws1_on_message, on_error = ws1_on_error, on_close = ws1_on_close) 
     ws1.on_open = ws1_on_open
-    threading.Thread(target=ws1_start).start() #Start Websocket Thread
-    threading.Thread(target=pingTwitchServersToKeepTheConnectionAliveTask).start() # Start PING Thread
+    
+    #Start Websocket and PING Thread
+    threading.Thread(target=ws1_start).start() 
+    threading.Thread(target=pingTwitchServersToKeepTheConnectionAliveTask).start() 
  
 if __name__ == "__main__":
     webSocketInit()

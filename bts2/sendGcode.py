@@ -47,6 +47,7 @@ def gSend():
     names = Sub.select().where(Sub.status == gcode)
     
     #header
+    consoleClass.thread5 = "homing"
     gBurn(homeCmd + unitsCmd + modeCmd + feedCmd, s)
 
     for name in names:

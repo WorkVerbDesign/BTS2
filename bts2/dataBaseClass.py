@@ -2,16 +2,18 @@
 # so if we want to change anything on the fly
 # we don't have to edit like 7 programs.
 # this is from: with help from: cordain99 etc
-# status = 0: name entered 1: name placed 2:gcode ready 3: burnt to board
+# status = 0, name entered. 1 = name placed, 2 = gcode ready, 3 = burnt to board
 
 from peewee import *
 import settings
 from playhouse.sqliteq import SqliteQueueDatabase
 
+#import settings
 dbFile = settings.dataBaseFile
-db = SqliteQueueDatabase(dbFile)
 entered = settings.nameEntered
-#db.atomic('IMMEDIATE')
+
+#define db
+db = SqliteQueueDatabase(dbFile)
 
 class Sub(Model):
     status = IntegerField(default = entered)

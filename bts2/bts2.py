@@ -11,13 +11,13 @@ from dataBaseClass import Sub, db
 from placeAndGcode import placeNames, makeGcode
 from sendGcode import gSend
 from pubSubListener import ws1_start, pingTwitchServersToKeepTheConnectionAliveTask, webSocketInit
-from dbUnparser import unParsify
 from frontPanel import Btn_Red, Btn_Blk, LED_BB_Red, LED_BB_Grn, LED_RB_Red, LED_Grn, LED_Red, LED_RB_Grn
 from ohShit import stopit
 import consoleClass
 
 #for testing
-from dbMaker import makeDb
+#from dbMaker import makeDb 
+#from dbUnparser import unParsify
 
 #set flags
 threadQuit = False
@@ -143,26 +143,31 @@ Btn_Blk.when_pressed = LED_BB_Red.on
 Btn_Blk.when_released = blkButton
             
 if __name__ == "__main__":
+    #console
     consoleClass.thread1 = "Burn the Subs Booted"
+
     try:  
         Thread.daemon = True
+
+        #start console thread
+        consoleClass.consoleStuff()
         
         #check if there are derelict entries
         deraLict()
         
         #pubSub, starts two threads
-        #webSocketInit()
+        webSocketInit()
         
         #testing virtualpubSub
-        virtualSub()
+        #virtualSub()
         
         #placer
         Thread(target=runPlace).start()
         
         #testing thread trap
-        testies(chromazomes)
+        #testies(chromazomes)
         
-        #gCodeStreamer
+        #gCodeStreamer, traps thread
         runBurner()
 
         
