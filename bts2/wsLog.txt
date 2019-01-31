@@ -1,0 +1,1866 @@
+2019,01,26,22:05:02:565308 pubSub Started
+2019,01,26,22:05:02:573029 ws1 restart
+2019,01,26,22:05:03:257336 ws1 opened
+2019,01,26,22:05:03:359049 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:05:03:424173 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,26,22:05:29:179194 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"dwyw42\",\"display_name\":\"dwyw42\",\"channel_name\":\"oh_bother\",\"user_id\":\"93007248\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T22:05:29.163409631Z\",\"sub_message\":{\"message\":\"BURN ME Kreygasm\",\"emotes\":[{\"start\":8,\"end\":15,\"id\":41}]},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":12,\"context\":\"resub\"}"}}
+
+2019,01,26,22:05:29:208200 {"sub_plan": "1000", "display_name": "dwyw42", "user_id": "93007248", "time": "2019-01-26T22:05:29.163409631Z", "sub_message": {"emotes": [{"end": 15, "id": 41, "start": 8}], "message": "BURN ME Kreygasm"}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 12, "context": "resub", "channel_id": "32178044", "user_name": "dwyw42"}
+2019,01,26,22:05:29:208663using dispName: dwyw42
+2019,01,26,22:05:36:612000 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T22:05:36.515978547Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"2000\",\"sub_plan_name\":\"Channel Subscription (oh_bother): $9.99 Sub\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,26,22:05:36:653330 {"sub_plan": "2000", "display_name": "weckso", "user_id": "24593814", "time": "2019-01-26T22:05:36.515978547Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother): $9.99 Sub", "months": 1, "context": "sub", "channel_id": "32178044", "user_name": "weckso"}
+2019,01,26,22:05:36:653735using dispName: weckso
+2019,01,26,22:05:58:354194 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"syneardwin\",\"display_name\":\"SyneArdwin\",\"channel_name\":\"oh_bother\",\"user_id\":\"105825453\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T22:05:58.34022204Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,26,22:05:58:366050 {"sub_plan": "1000", "display_name": "SyneArdwin", "user_id": "105825453", "time": "2019-01-26T22:05:58.34022204Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "context": "sub", "channel_id": "32178044", "user_name": "syneardwin"}
+2019,01,26,22:05:58:366479using dispName: SyneArdwin
+2019,01,26,22:06:19:085549 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"nebhay\",\"display_name\":\"nebhay\",\"channel_name\":\"oh_bother\",\"user_id\":\"46311691\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T22:06:19.063059644Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":5,\"context\":\"resub\"}"}}
+
+2019,01,26,22:06:19:092197 {"sub_plan": "1000", "display_name": "nebhay", "user_id": "46311691", "time": "2019-01-26T22:06:19.063059644Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 5, "context": "resub", "channel_id": "32178044", "user_name": "nebhay"}
+2019,01,26,22:06:19:092645using dispName: nebhay
+2019,01,26,22:06:20:180812 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"thorslostkitten\",\"display_name\":\"ThorsLostKitten\",\"channel_name\":\"oh_bother\",\"user_id\":\"109663187\",\"channel_id\":\"32178044\",\"recipient_id\":\"274572346\",\"recipient_user_name\":\"frauleinsavage\",\"recipient_display_name\":\"FrauleinSavage\",\"time\":\"2019-01-26T22:06:20.171622119Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:06:20:182425 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "frauleinsavage", "context": "subgift", "time": "2019-01-26T22:06:20.171622119Z", "user_name": "thorslostkitten", "display_name": "ThorsLostKitten", "user_id": "109663187", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "274572346", "recipient_display_name": "FrauleinSavage"}
+2019,01,26,22:06:20:182979using repName: FrauleinSavage
+2019,01,26,22:06:21:735373 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"schmide\",\"display_name\":\"schmide\",\"channel_name\":\"oh_bother\",\"user_id\":\"29559101\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T22:06:21.733852974Z\",\"sub_message\":{\"message\":\"Why does it hurt when I pee\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":5,\"context\":\"resub\"}"}}
+
+2019,01,26,22:06:21:736266 {"sub_plan": "1000", "display_name": "schmide", "user_id": "29559101", "time": "2019-01-26T22:06:21.733852974Z", "sub_message": {"emotes": null, "message": "Why does it hurt when I pee"}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 5, "context": "resub", "channel_id": "32178044", "user_name": "schmide"}
+2019,01,26,22:06:21:736658using dispName: schmide
+2019,01,26,22:06:35:946154 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"tervy\",\"display_name\":\"Tervy\",\"channel_name\":\"oh_bother\",\"user_id\":\"36822440\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T22:06:35.935921636Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,26,22:06:35:952832 {"sub_plan": "1000", "display_name": "Tervy", "user_id": "36822440", "time": "2019-01-26T22:06:35.935921636Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "context": "sub", "channel_id": "32178044", "user_name": "tervy"}
+2019,01,26,22:06:35:953305using dispName: Tervy
+2019,01,26,22:07:46:814448 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"short_lurker\",\"display_name\":\"Short_Lurker\",\"channel_name\":\"oh_bother\",\"user_id\":\"47893284\",\"channel_id\":\"32178044\",\"recipient_id\":\"154010158\",\"recipient_user_name\":\"woodenmonkey9920\",\"recipient_display_name\":\"woodenmonkey9920\",\"time\":\"2019-01-26T22:07:46.79479718Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:07:46:821305 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "woodenmonkey9920", "context": "subgift", "time": "2019-01-26T22:07:46.79479718Z", "user_name": "short_lurker", "display_name": "Short_Lurker", "user_id": "47893284", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "154010158", "recipient_display_name": "woodenmonkey9920"}
+2019,01,26,22:07:46:821731using repName: woodenmonkey9920
+2019,01,26,22:08:38:460201 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"drwd40\",\"display_name\":\"DrWD40\",\"channel_name\":\"oh_bother\",\"user_id\":\"145057049\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T22:08:38.436177914Z\",\"sub_message\":{\"message\":\"Make me big, daddy BTS\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":5,\"context\":\"resub\"}"}}
+
+2019,01,26,22:08:38:461337 {"sub_plan": "1000", "display_name": "DrWD40", "user_id": "145057049", "time": "2019-01-26T22:08:38.436177914Z", "sub_message": {"emotes": null, "message": "Make me big, daddy BTS"}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 5, "context": "resub", "channel_id": "32178044", "user_name": "drwd40"}
+2019,01,26,22:08:38:461738using dispName: DrWD40
+2019,01,26,22:08:58:409526 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"fourthmagnitude\",\"display_name\":\"fourthmagnitude\",\"channel_name\":\"oh_bother\",\"user_id\":\"90861039\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T22:08:58.398812177Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,26,22:08:58:416328 {"sub_plan": "1000", "display_name": "fourthmagnitude", "user_id": "90861039", "time": "2019-01-26T22:08:58.398812177Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "context": "sub", "channel_id": "32178044", "user_name": "fourthmagnitude"}
+2019,01,26,22:08:58:416733using dispName: fourthmagnitude
+2019,01,26,22:09:19:964285 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:10:55:351531 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"murderbits\",\"display_name\":\"murderbits\",\"channel_name\":\"oh_bother\",\"user_id\":\"88599295\",\"channel_id\":\"32178044\",\"recipient_id\":\"62727821\",\"recipient_user_name\":\"buttholeprincess\",\"recipient_display_name\":\"ButtholePrincess\",\"time\":\"2019-01-26T22:10:55.335466452Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:10:55:363932 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "buttholeprincess", "context": "subgift", "time": "2019-01-26T22:10:55.335466452Z", "user_name": "murderbits", "display_name": "murderbits", "user_id": "88599295", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "62727821", "recipient_display_name": "ButtholePrincess"}
+2019,01,26,22:10:55:364343using repName: ButtholePrincess
+2019,01,26,22:11:09:636697 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"makotronics\",\"display_name\":\"makotronics\",\"channel_name\":\"oh_bother\",\"user_id\":\"175386085\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T22:11:09.625280369Z\",\"sub_message\":{\"message\":\"It's going to be a little embarrasisng for me if this doesn't work....\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":5,\"context\":\"resub\"}"}}
+
+2019,01,26,22:11:09:643239 {"sub_plan": "1000", "display_name": "makotronics", "user_id": "175386085", "time": "2019-01-26T22:11:09.625280369Z", "sub_message": {"emotes": null, "message": "It's going to be a little embarrasisng for me if this doesn't work...."}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 5, "context": "resub", "channel_id": "32178044", "user_name": "makotronics"}
+2019,01,26,22:11:09:643632using dispName: makotronics
+2019,01,26,22:11:39:469049 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"407940731\",\"recipient_user_name\":\"massivecockmuncher\",\"recipient_display_name\":\"massivecockmuncher\",\"time\":\"2019-01-26T22:11:39.457579918Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:11:39:475813 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "massivecockmuncher", "context": "subgift", "time": "2019-01-26T22:11:39.457579918Z", "user_name": "weckso", "display_name": "weckso", "user_id": "24593814", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "407940731", "recipient_display_name": "massivecockmuncher"}
+2019,01,26,22:11:39:476219using repName: massivecockmuncher
+2019,01,26,22:12:01:192991 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"murderbits\",\"display_name\":\"murderbits\",\"channel_name\":\"oh_bother\",\"user_id\":\"88599295\",\"channel_id\":\"32178044\",\"recipient_id\":\"74452459\",\"recipient_user_name\":\"masturbatingtoyou\",\"recipient_display_name\":\"Masturbatingtoyou\",\"time\":\"2019-01-26T22:12:01.179924667Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:12:01:199411 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "masturbatingtoyou", "context": "subgift", "time": "2019-01-26T22:12:01.179924667Z", "user_name": "murderbits", "display_name": "murderbits", "user_id": "88599295", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "74452459", "recipient_display_name": "Masturbatingtoyou"}
+2019,01,26,22:12:01:199814using repName: Masturbatingtoyou
+2019,01,26,22:13:39:908411 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:17:27:246551 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"murderbits\",\"display_name\":\"murderbits\",\"channel_name\":\"oh_bother\",\"user_id\":\"88599295\",\"channel_id\":\"32178044\",\"recipient_id\":\"268818969\",\"recipient_user_name\":\"rapid_anal_pounding\",\"recipient_display_name\":\"rapid_anal_pounding\",\"time\":\"2019-01-26T22:17:27.244298591Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:17:27:253135 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "rapid_anal_pounding", "context": "subgift", "time": "2019-01-26T22:17:27.244298591Z", "user_name": "murderbits", "display_name": "murderbits", "user_id": "88599295", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "268818969", "recipient_display_name": "rapid_anal_pounding"}
+2019,01,26,22:17:27:253588using repName: rapid_anal_pounding
+2019,01,26,22:17:58:818493 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:19:04:358483 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"94139914\",\"recipient_user_name\":\"s5flare\",\"recipient_display_name\":\"S5Flare\",\"time\":\"2019-01-26T22:19:04.359228845Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:19:04:365660 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "s5flare", "context": "subgift", "time": "2019-01-26T22:19:04.359228845Z", "user_name": "weckso", "display_name": "weckso", "user_id": "24593814", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "94139914", "recipient_display_name": "S5Flare"}
+2019,01,26,22:19:04:366065using repName: S5Flare
+2019,01,26,22:19:04:475803 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"30059026\",\"recipient_user_name\":\"blackbeltsaru\",\"recipient_display_name\":\"BlackBeltSaru\",\"time\":\"2019-01-26T22:19:04.481225809Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:19:04:476738 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "blackbeltsaru", "context": "subgift", "time": "2019-01-26T22:19:04.481225809Z", "user_name": "weckso", "display_name": "weckso", "user_id": "24593814", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "30059026", "recipient_display_name": "BlackBeltSaru"}
+2019,01,26,22:19:04:477116using repName: BlackBeltSaru
+2019,01,26,22:19:04:513468 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"106128622\",\"recipient_user_name\":\"lordv0lk\",\"recipient_display_name\":\"lordv0lk\",\"time\":\"2019-01-26T22:19:04.517803268Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:19:04:514320 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "lordv0lk", "context": "subgift", "time": "2019-01-26T22:19:04.517803268Z", "user_name": "weckso", "display_name": "weckso", "user_id": "24593814", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "106128622", "recipient_display_name": "lordv0lk"}
+2019,01,26,22:19:04:514687using repName: lordv0lk
+2019,01,26,22:19:04:624165 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"32949378\",\"recipient_user_name\":\"roccovax\",\"recipient_display_name\":\"Roccovax\",\"time\":\"2019-01-26T22:19:04.630657231Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:19:04:625050 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "roccovax", "context": "subgift", "time": "2019-01-26T22:19:04.630657231Z", "user_name": "weckso", "display_name": "weckso", "user_id": "24593814", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "32949378", "recipient_display_name": "Roccovax"}
+2019,01,26,22:19:04:625419using repName: Roccovax
+2019,01,26,22:19:04:680498 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"177366702\",\"recipient_user_name\":\"vw_insanity\",\"recipient_display_name\":\"VW_Insanity\",\"time\":\"2019-01-26T22:19:04.687722106Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:19:04:681492 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "vw_insanity", "context": "subgift", "time": "2019-01-26T22:19:04.687722106Z", "user_name": "weckso", "display_name": "weckso", "user_id": "24593814", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "177366702", "recipient_display_name": "VW_Insanity"}
+2019,01,26,22:19:04:681880using repName: VW_Insanity
+2019,01,26,22:19:04:727599 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"237340840\",\"recipient_user_name\":\"auntiepsychotic\",\"recipient_display_name\":\"AuntiePsychotic\",\"time\":\"2019-01-26T22:19:04.716229139Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:19:04:728481 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "auntiepsychotic", "context": "subgift", "time": "2019-01-26T22:19:04.716229139Z", "user_name": "weckso", "display_name": "weckso", "user_id": "24593814", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "237340840", "recipient_display_name": "AuntiePsychotic"}
+2019,01,26,22:19:04:728860using repName: AuntiePsychotic
+2019,01,26,22:19:04:771270 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"63038938\",\"recipient_user_name\":\"smurfberribbq\",\"recipient_display_name\":\"smurfberribbq\",\"time\":\"2019-01-26T22:19:04.733870859Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:19:04:772121 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "smurfberribbq", "context": "subgift", "time": "2019-01-26T22:19:04.733870859Z", "user_name": "weckso", "display_name": "weckso", "user_id": "24593814", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "63038938", "recipient_display_name": "smurfberribbq"}
+2019,01,26,22:19:04:772492using repName: smurfberribbq
+2019,01,26,22:19:04:812496 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"263575624\",\"recipient_user_name\":\"seanch80\",\"recipient_display_name\":\"seanch80\",\"time\":\"2019-01-26T22:19:04.795852343Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:19:04:813351 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "seanch80", "context": "subgift", "time": "2019-01-26T22:19:04.795852343Z", "user_name": "weckso", "display_name": "weckso", "user_id": "24593814", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "263575624", "recipient_display_name": "seanch80"}
+2019,01,26,22:19:04:813744using repName: seanch80
+2019,01,26,22:19:04:904177 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"28391506\",\"recipient_user_name\":\"lastfreefool\",\"recipient_display_name\":\"LastFreeFooL\",\"time\":\"2019-01-26T22:19:04.910558208Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:19:04:905120 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "lastfreefool", "context": "subgift", "time": "2019-01-26T22:19:04.910558208Z", "user_name": "weckso", "display_name": "weckso", "user_id": "24593814", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "28391506", "recipient_display_name": "LastFreeFooL"}
+2019,01,26,22:19:04:905490using repName: LastFreeFooL
+2019,01,26,22:19:06:085400 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"188355948\",\"recipient_user_name\":\"abdo_yasser\",\"recipient_display_name\":\"Abdo_Yasser\",\"time\":\"2019-01-26T22:19:06.091726089Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:19:06:086258 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "abdo_yasser", "context": "subgift", "time": "2019-01-26T22:19:06.091726089Z", "user_name": "weckso", "display_name": "weckso", "user_id": "24593814", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "188355948", "recipient_display_name": "Abdo_Yasser"}
+2019,01,26,22:19:06:086652using repName: Abdo_Yasser
+2019,01,26,22:21:33:409942 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"murderbits\",\"display_name\":\"murderbits\",\"channel_name\":\"oh_bother\",\"user_id\":\"88599295\",\"channel_id\":\"32178044\",\"recipient_id\":\"265742293\",\"recipient_user_name\":\"do_you_do_anal_\",\"recipient_display_name\":\"do_you_do_anal_\",\"time\":\"2019-01-26T22:21:33.412143707Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:21:33:416496 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "do_you_do_anal_", "context": "subgift", "time": "2019-01-26T22:21:33.412143707Z", "user_name": "murderbits", "display_name": "murderbits", "user_id": "88599295", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "265742293", "recipient_display_name": "do_you_do_anal_"}
+2019,01,26,22:21:33:416900using repName: do_you_do_anal_
+2019,01,26,22:22:11:909331 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:23:24:522291 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"tehbeetus\",\"display_name\":\"tehbeetus\",\"channel_name\":\"oh_bother\",\"user_id\":\"7640817\",\"channel_id\":\"32178044\",\"recipient_id\":\"412448466\",\"recipient_user_name\":\"michaelreevesbutthole\",\"recipient_display_name\":\"michaelreevesbutthole\",\"time\":\"2019-01-26T22:23:24.523473468Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:23:24:529726 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "michaelreevesbutthole", "context": "subgift", "time": "2019-01-26T22:23:24.523473468Z", "user_name": "tehbeetus", "display_name": "tehbeetus", "user_id": "7640817", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "412448466", "recipient_display_name": "michaelreevesbutthole"}
+2019,01,26,22:23:24:530149using repName: michaelreevesbutthole
+2019,01,26,22:26:14:825554 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:29:02:213067 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"short_lurker\",\"display_name\":\"Short_Lurker\",\"channel_name\":\"oh_bother\",\"user_id\":\"47893284\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T22:29:02.219538746Z\",\"sub_message\":{\"message\":\"awesomeeeeeee\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":5,\"context\":\"resub\"}"}}
+
+2019,01,26,22:29:02:230747 {"sub_plan": "1000", "display_name": "Short_Lurker", "user_id": "47893284", "time": "2019-01-26T22:29:02.219538746Z", "sub_message": {"emotes": null, "message": "awesomeeeeeee"}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 5, "context": "resub", "channel_id": "32178044", "user_name": "short_lurker"}
+2019,01,26,22:29:02:231156using dispName: Short_Lurker
+2019,01,26,22:29:45:477803 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"tehbeetus\",\"display_name\":\"tehbeetus\",\"channel_name\":\"oh_bother\",\"user_id\":\"7640817\",\"channel_id\":\"32178044\",\"recipient_id\":\"264380628\",\"recipient_user_name\":\"kronikmathsdebater\",\"recipient_display_name\":\"kronikmathsdebater\",\"time\":\"2019-01-26T22:29:45.476733169Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:29:45:484627 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "kronikmathsdebater", "context": "subgift", "time": "2019-01-26T22:29:45.476733169Z", "user_name": "tehbeetus", "display_name": "tehbeetus", "user_id": "7640817", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "264380628", "recipient_display_name": "kronikmathsdebater"}
+2019,01,26,22:29:45:485038using repName: kronikmathsdebater
+2019,01,26,22:30:21:036693 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:31:10:262614 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"tehbeetus\",\"display_name\":\"tehbeetus\",\"channel_name\":\"oh_bother\",\"user_id\":\"7640817\",\"channel_id\":\"32178044\",\"recipient_id\":\"135764394\",\"recipient_user_name\":\"abcdefghijklmnopqrstuvwxz\",\"recipient_display_name\":\"abcdefghijklmnopqrstuvwxz\",\"time\":\"2019-01-26T22:31:10.272756681Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:31:10:270162 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "abcdefghijklmnopqrstuvwxz", "context": "subgift", "time": "2019-01-26T22:31:10.272756681Z", "user_name": "tehbeetus", "display_name": "tehbeetus", "user_id": "7640817", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "135764394", "recipient_display_name": "abcdefghijklmnopqrstuvwxz"}
+2019,01,26,22:31:10:270647using repName: abcdefghijklmnopqrstuvwxz
+2019,01,26,22:31:27:772999 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"murderbits\",\"display_name\":\"murderbits\",\"channel_name\":\"oh_bother\",\"user_id\":\"88599295\",\"channel_id\":\"32178044\",\"recipient_id\":\"235802613\",\"recipient_user_name\":\"nakedandrea\",\"recipient_display_name\":\"nakedandrea\",\"time\":\"2019-01-26T22:31:27.780170792Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,22:31:27:790654 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "nakedandrea", "context": "subgift", "time": "2019-01-26T22:31:27.780170792Z", "user_name": "murderbits", "display_name": "murderbits", "user_id": "88599295", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "235802613", "recipient_display_name": "nakedandrea"}
+2019,01,26,22:31:27:791068using repName: nakedandrea
+2019,01,26,22:34:35:835571 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:38:51:711692 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:43:05:588699 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:44:05:268741 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"twiztedsizter\",\"display_name\":\"twiztedsizter\",\"channel_name\":\"oh_bother\",\"user_id\":\"32817109\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T22:44:05.211888062Z\",\"sub_message\":{\"message\":\"ooh, another bts for me to destroy!\",\"emotes\":null},\"sub_plan\":\"3000\",\"sub_plan_name\":\"Channel Subscription (oh_bother): $24.99 Sub\",\"months\":14,\"context\":\"resub\"}"}}
+
+2019,01,26,22:44:05:275751 {"sub_plan": "3000", "display_name": "twiztedsizter", "user_id": "32817109", "time": "2019-01-26T22:44:05.211888062Z", "sub_message": {"emotes": null, "message": "ooh, another bts for me to destroy!"}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother): $24.99 Sub", "months": 14, "context": "resub", "channel_id": "32178044", "user_name": "twiztedsizter"}
+2019,01,26,22:44:05:276134using dispName: twiztedsizter
+2019,01,26,22:47:16:487517 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:51:33:419496 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:55:42:291583 raw message: { "type": "PONG" }
+
+
+2019,01,26,22:59:46:304134 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:04:06:483758 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:08:22:598818 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:12:30:628728 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:15:42:473277 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"obscurare\",\"display_name\":\"Obscurare\",\"channel_name\":\"oh_bother\",\"user_id\":\"94651811\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T23:15:42.391428259Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,26,23:15:42:485478 {"sub_plan": "1000", "display_name": "Obscurare", "user_id": "94651811", "time": "2019-01-26T23:15:42.391428259Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "context": "sub", "channel_id": "32178044", "user_name": "obscurare"}
+2019,01,26,23:15:42:485911using dispName: Obscurare
+2019,01,26,23:16:44:152017 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:17:11:073338 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"pearce89x\",\"display_name\":\"Pearce89x\",\"channel_name\":\"oh_bother\",\"user_id\":\"63162529\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T23:17:11.008918611Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,26,23:17:11:085344 {"sub_plan": "1000", "display_name": "Pearce89x", "user_id": "63162529", "time": "2019-01-26T23:17:11.008918611Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "context": "sub", "channel_id": "32178044", "user_name": "pearce89x"}
+2019,01,26,23:17:11:085798using dispName: Pearce89x
+2019,01,26,23:20:47:333155 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:24:54:325089 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:25:03:376898 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"zapbrannigan90\",\"display_name\":\"zapbrannigan90\",\"channel_name\":\"oh_bother\",\"user_id\":\"121986074\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T23:25:03.313447303Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,26,23:25:03:394882 {"sub_plan": "1000", "display_name": "zapbrannigan90", "user_id": "121986074", "time": "2019-01-26T23:25:03.313447303Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "context": "sub", "channel_id": "32178044", "user_name": "zapbrannigan90"}
+2019,01,26,23:25:03:395286using dispName: zapbrannigan90
+2019,01,26,23:29:04:723940 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:33:13:764226 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:35:29:649400 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"wudis43\",\"display_name\":\"Wudis43\",\"channel_name\":\"oh_bother\",\"user_id\":\"38118860\",\"channel_id\":\"32178044\",\"recipient_id\":\"47316080\",\"recipient_user_name\":\"supaselfish\",\"recipient_display_name\":\"SupaSelfish\",\"time\":\"2019-01-26T23:35:29.579509586Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,23:35:29:656775 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "supaselfish", "context": "subgift", "time": "2019-01-26T23:35:29.579509586Z", "user_name": "wudis43", "display_name": "Wudis43", "user_id": "38118860", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "47316080", "recipient_display_name": "SupaSelfish"}
+2019,01,26,23:35:29:657178using repName: SupaSelfish
+2019,01,26,23:37:18:703298 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:41:22:754133 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:45:43:787182 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:46:15:016896 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"barrickinov\",\"display_name\":\"Barrickinov\",\"channel_name\":\"oh_bother\",\"user_id\":\"54374083\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T23:46:14.952057677Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,26,23:46:15:035313 {"sub_plan": "1000", "display_name": "Barrickinov", "user_id": "54374083", "time": "2019-01-26T23:46:14.952057677Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "context": "sub", "channel_id": "32178044", "user_name": "barrickinov"}
+2019,01,26,23:46:15:035756using dispName: Barrickinov
+2019,01,26,23:48:05:620063 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"tehbeetus\",\"display_name\":\"tehbeetus\",\"channel_name\":\"oh_bother\",\"user_id\":\"7640817\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T23:48:05.540768846Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"2000\",\"sub_plan_name\":\"Channel Subscription (oh_bother): $9.99 Sub\",\"months\":3,\"context\":\"resub\"}"}}
+
+2019,01,26,23:48:05:633175 {"sub_plan": "2000", "display_name": "tehbeetus", "user_id": "7640817", "time": "2019-01-26T23:48:05.540768846Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother): $9.99 Sub", "months": 3, "context": "resub", "channel_id": "32178044", "user_name": "tehbeetus"}
+2019,01,26,23:48:05:633613using dispName: tehbeetus
+2019,01,26,23:48:55:731868 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"barrickinov\",\"display_name\":\"Barrickinov\",\"channel_name\":\"oh_bother\",\"user_id\":\"54374083\",\"channel_id\":\"32178044\",\"recipient_id\":\"151145128\",\"recipient_user_name\":\"miakhalifa\",\"recipient_display_name\":\"MiaKhalifa\",\"time\":\"2019-01-26T23:48:55.655679052Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,23:48:55:738412 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "miakhalifa", "context": "subgift", "time": "2019-01-26T23:48:55.655679052Z", "user_name": "barrickinov", "display_name": "Barrickinov", "user_id": "54374083", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "151145128", "recipient_display_name": "MiaKhalifa"}
+2019,01,26,23:48:55:738842using repName: MiaKhalifa
+2019,01,26,23:49:58:775932 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:50:47:752329 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"barrickinov\",\"display_name\":\"Barrickinov\",\"channel_name\":\"oh_bother\",\"user_id\":\"54374083\",\"channel_id\":\"32178044\",\"recipient_id\":\"71084570\",\"recipient_user_name\":\"burnthestream\",\"recipient_display_name\":\"burnthestream\",\"time\":\"2019-01-26T23:50:47.686801761Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,23:50:47:759127 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "burnthestream", "context": "subgift", "time": "2019-01-26T23:50:47.686801761Z", "user_name": "barrickinov", "display_name": "Barrickinov", "user_id": "54374083", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "71084570", "recipient_display_name": "burnthestream"}
+2019,01,26,23:50:47:759545using repName: burnthestream
+2019,01,26,23:52:35:025676 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"tim_th3d0rkknightz\",\"display_name\":\"tim_th3d0rkknightz\",\"channel_name\":\"oh_bother\",\"user_id\":\"144515958\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T23:52:34.970833122Z\",\"sub_message\":{\"message\":\"burn baby burn!!!\",\"emotes\":null},\"sub_plan\":\"2000\",\"sub_plan_name\":\"Channel Subscription (oh_bother): $9.99 Sub\",\"months\":5,\"context\":\"resub\"}"}}
+
+2019,01,26,23:52:35:037682 {"sub_plan": "2000", "display_name": "tim_th3d0rkknightz", "user_id": "144515958", "time": "2019-01-26T23:52:34.970833122Z", "sub_message": {"emotes": null, "message": "burn baby burn!!!"}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother): $9.99 Sub", "months": 5, "context": "resub", "channel_id": "32178044", "user_name": "tim_th3d0rkknightz"}
+2019,01,26,23:52:35:038132using dispName: tim_th3d0rkknightz
+2019,01,26,23:53:59:323580 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"threemares\",\"display_name\":\"threemares\",\"channel_name\":\"oh_bother\",\"user_id\":\"210690993\",\"channel_id\":\"32178044\",\"recipient_id\":\"71336\",\"recipient_user_name\":\"robbaz\",\"recipient_display_name\":\"Robbaz\",\"time\":\"2019-01-26T23:53:59.258395462Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,23:53:59:330424 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "robbaz", "context": "subgift", "time": "2019-01-26T23:53:59.258395462Z", "user_name": "threemares", "display_name": "threemares", "user_id": "210690993", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "71336", "recipient_display_name": "Robbaz"}
+2019,01,26,23:53:59:330898using repName: Robbaz
+2019,01,26,23:54:09:894043 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:55:21:555385 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"barrickinov\",\"display_name\":\"Barrickinov\",\"channel_name\":\"oh_bother\",\"user_id\":\"54374083\",\"channel_id\":\"32178044\",\"recipient_id\":\"65956137\",\"recipient_user_name\":\"vagineer115\",\"recipient_display_name\":\"Vagineer115\",\"time\":\"2019-01-26T23:55:21.492513885Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,26,23:55:21:568130 {"sub_message": {"emotes": null, "message": ""}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_id": "32178044", "recipient_user_name": "vagineer115", "context": "subgift", "time": "2019-01-26T23:55:21.492513885Z", "user_name": "barrickinov", "display_name": "Barrickinov", "user_id": "54374083", "sub_plan": "1000", "channel_name": "oh_bother", "months": 1, "recipient_id": "65956137", "recipient_display_name": "Vagineer115"}
+2019,01,26,23:55:21:568617using repName: Vagineer115
+2019,01,26,23:58:27:805146 raw message: { "type": "PONG" }
+
+
+2019,01,26,23:58:52:578773 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"pifibbi\",\"display_name\":\"pifibbi\",\"channel_name\":\"oh_bother\",\"user_id\":\"198835151\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T23:58:52.513367355Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"Prime\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,26,23:58:52:591051 {"sub_plan": "Prime", "display_name": "pifibbi", "user_id": "198835151", "time": "2019-01-26T23:58:52.513367355Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "context": "sub", "channel_id": "32178044", "user_name": "pifibbi"}
+2019,01,26,23:58:52:591480using dispName: pifibbi
+2019,01,26,23:59:14:193897 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"solarnum\",\"display_name\":\"solarnum\",\"channel_name\":\"oh_bother\",\"user_id\":\"77396902\",\"channel_id\":\"32178044\",\"time\":\"2019-01-26T23:59:14.134547415Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"Prime\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,26,23:59:14:200914 {"sub_plan": "Prime", "display_name": "solarnum", "user_id": "77396902", "time": "2019-01-26T23:59:14.134547415Z", "sub_message": {"emotes": null, "message": ""}, "channel_name": "oh_bother", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "context": "sub", "channel_id": "32178044", "user_name": "solarnum"}
+2019,01,26,23:59:14:201389using dispName: solarnum
+2019,01,27,00:02:29:725418 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:06:38:849267 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:10:45:932246 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:14:52:969765 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:19:00:059528 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:23:06:124662 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:27:14:144817 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:31:28:225537 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:35:38:308967 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:39:50:427164 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:43:54:476932 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:48:13:578964 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:52:20:645432 raw message: { "type": "PONG" }
+
+
+2019,01,27,00:56:30:813610 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:00:48:774175 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:05:09:927283 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:09:25:071250 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:13:44:128264 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:17:48:139848 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:21:55:270426 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:26:08:476268 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:30:22:423694 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:34:25:534741 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:38:43:583649 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:42:48:698747 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:46:51:697515 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:51:04:802931 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:55:20:868166 raw message: { "type": "PONG" }
+
+
+2019,01,27,01:59:37:978727 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:03:58:035723 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:08:17:182060 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:12:25:227034 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:16:37:346910 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:20:56:400188 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:25:01:486037 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:29:03:484433 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:33:23:602282 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:37:36:746351 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:41:40:778229 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:46:00:873321 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:50:06:989194 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:54:27:051680 raw message: { "type": "PONG" }
+
+
+2019,01,27,02:58:43:169295 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:02:56:168939 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:07:06:242212 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:11:14:355784 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:15:27:387171 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:19:35:376620 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:23:40:387939 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:27:44:395400 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:31:55:390126 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:36:04:438067 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:40:16:552450 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:44:18:467967 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:48:24:403359 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:52:29:469180 raw message: { "type": "PONG" }
+
+
+2019,01,27,03:56:31:613813 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:00:52:663391 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:05:10:874991 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:09:14:951327 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:13:26:079559 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:17:29:029315 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:21:50:243607 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:26:09:385868 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:30:17:345963 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:34:34:400981 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:38:51:401170 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:43:12:496391 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:47:22:512823 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:51:42:557129 raw message: { "type": "PONG" }
+
+
+2019,01,27,04:55:48:538182 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:00:08:632760 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:04:23:715664 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:08:39:859714 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:12:56:900867 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:17:03:962281 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:21:17:964195 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:25:22:066522 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:29:24:127441 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:33:26:137464 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:37:30:095983 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:41:33:138439 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:45:52:296953 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:50:13:318542 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:54:21:313311 raw message: { "type": "PONG" }
+
+
+2019,01,27,05:58:33:285933 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:02:39:306607 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:06:51:373188 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:10:56:370182 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:15:11:527321 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:19:32:616553 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:23:53:683589 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:28:10:898782 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:32:21:081722 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:36:40:146997 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:40:49:158211 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:45:04:190935 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:49:24:324595 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:53:32:366864 raw message: { "type": "PONG" }
+
+
+2019,01,27,06:57:47:464511 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:01:51:563642 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:05:59:732888 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:10:16:918160 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:14:23:077014 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:18:34:109270 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:22:38:136842 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:26:54:261958 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:30:58:307202 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:35:14:294550 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:39:17:312314 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:43:31:482753 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:47:36:613609 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:51:48:666777 raw message: { "type": "PONG" }
+
+
+2019,01,27,07:56:07:896838 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:00:17:996421 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:04:25:043347 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:08:42:222615 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:13:03:365938 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:17:20:368951 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:21:35:347257 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:25:53:441210 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:30:12:378892 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:34:32:527558 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:38:35:478283 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:42:48:482948 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:46:52:478022 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:51:04:403889 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:55:16:504981 raw message: { "type": "PONG" }
+
+
+2019,01,27,08:59:27:423421 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:03:48:534924 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:07:53:531919 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:12:05:490391 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:16:25:469730 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:20:44:492759 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:24:56:644133 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:29:17:723782 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:33:34:818884 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:37:40:008214 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:41:50:036697 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:46:09:107628 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:50:12:135371 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:54:29:078766 raw message: { "type": "PONG" }
+
+
+2019,01,27,09:58:42:075675 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:02:50:971129 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:07:10:095765 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:11:25:254500 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:15:42:308880 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:20:02:476646 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:24:19:582695 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:28:40:766411 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:32:49:863754 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:37:10:918875 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:41:21:926379 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:45:43:030570 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:49:46:124679 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:53:56:233507 raw message: { "type": "PONG" }
+
+
+2019,01,27,10:58:05:250019 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:02:12:325980 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:06:27:331765 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:10:46:365682 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:15:05:553632 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:19:13:617364 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:23:26:572670 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:27:41:670570 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:31:54:695186 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:36:02:758691 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:40:22:939838 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:44:38:976769 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:48:45:008519 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:52:54:042459 raw message: { "type": "PONG" }
+
+
+2019,01,27,11:57:12:102671 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:01:27:157544 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:05:41:262657 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:09:47:385838 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:13:55:509490 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:18:12:623125 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:22:23:719469 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:26:27:803244 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:30:46:926902 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:34:58:940098 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:39:20:032557 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:43:35:135427 raw message: { "type": "PONG" }
+
+
+2019,01,27,12:47:43:243459 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:02:48:729759 pubSub Started
+2019,01,27,20:02:48:744336 ws1 restart
+2019,01,27,20:02:49:422346 ws1 opened
+2019,01,27,20:02:49:524035 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:02:49:563504 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,27,20:06:39:774041 pubSub Started
+2019,01,27,20:06:39:783255 ws1 restart
+2019,01,27,20:06:40:380995 ws1 opened
+2019,01,27,20:06:40:479368 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:06:40:515863 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,27,20:10:57:590858 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:15:02:633722 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:19:06:731770 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:23:27:860850 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:27:43:043563 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:31:47:157502 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:35:57:208441 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:40:13:315127 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:44:28:397755 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:48:36:379975 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:52:41:371360 raw message: { "type": "PONG" }
+
+
+2019,01,27,20:56:46:358988 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:00:51:430362 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:05:01:406958 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:09:19:510615 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:13:30:590448 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:17:46:669707 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:21:48:711823 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:25:55:794424 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:30:05:853217 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:34:22:002784 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:38:37:061300 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:42:48:083801 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:47:05:124937 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:51:17:118821 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:55:35:272909 raw message: { "type": "PONG" }
+
+
+2019,01,27,21:59:55:324540 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:04:05:456372 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:08:08:460930 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:12:11:517354 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:16:25:648652 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:20:34:744581 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:24:50:791897 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:28:53:876214 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:33:01:963221 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:37:10:030345 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:41:26:165774 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:45:47:223871 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:49:57:330092 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:54:17:478122 raw message: { "type": "PONG" }
+
+
+2019,01,27,22:58:29:534925 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:02:50:733367 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:07:07:857846 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:11:22:918312 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:15:41:057042 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:19:58:160974 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:24:15:174213 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:28:20:209989 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:32:40:282872 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:36:59:406890 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:41:13:505116 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:45:22:447475 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:49:24:475950 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:53:40:511874 raw message: { "type": "PONG" }
+
+
+2019,01,27,23:58:00:725556 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:02:14:784764 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:06:20:782479 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:10:40:855365 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:14:58:927081 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:19:03:977056 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:23:22:174237 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:27:26:242248 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:31:38:263412 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:35:53:405802 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:40:01:427397 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:44:10:455409 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:48:18:555096 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:52:39:645852 raw message: { "type": "PONG" }
+
+
+2019,01,28,00:56:56:841519 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:01:17:979792 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:05:36:124926 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:09:51:243651 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:13:54:266539 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:17:58:285475 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:22:09:324528 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:26:16:369083 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:30:19:416304 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:34:35:563175 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:38:38:568915 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:42:55:646472 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:47:14:726401 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:51:24:918078 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:55:43:975980 raw message: { "type": "PONG" }
+
+
+2019,01,28,01:59:57:043863 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:04:12:094019 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:08:14:118808 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:12:19:170952 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:16:34:269437 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:20:48:359127 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:24:59:411288 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:29:11:500786 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:33:14:616259 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:37:30:694926 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:41:47:805276 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:45:53:765300 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:50:03:802401 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:54:17:920309 raw message: { "type": "PONG" }
+
+
+2019,01,28,02:58:34:947984 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:02:52:937891 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:07:14:033298 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:11:26:167888 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:15:35:193403 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:19:44:221220 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:23:59:326122 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:28:12:449270 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:32:33:552872 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:36:45:530257 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:41:04:675186 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:45:23:761892 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:49:42:929329 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:53:56:008073 raw message: { "type": "PONG" }
+
+
+2019,01,28,03:58:03:013426 raw message: { "type": "PONG" }
+
+
+2019,01,28,04:02:16:141395 raw message: { "type": "PONG" }
+
+
+2019,01,28,04:06:48:554581 pubSub Started
+2019,01,28,04:06:48:583426 ws1 restart
+2019,01,28,04:06:49:232139 ws1 opened
+2019,01,28,04:06:49:329017 raw message: { "type": "PONG" }
+
+
+2019,01,28,04:06:49:383543 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+                                                               2019,01,28,18:11:49:026366 pubSub Started
+2019,01,28,18:11:49:039502 ws1 restart
+2019,01,28,18:11:49:725228 ws1 opened
+2019,01,28,18:11:49:826858 raw message: { "type": "PONG" }
+
+
+2019,01,28,18:11:49:869556 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,28,18:15:58:882745 raw message: { "type": "PONG" }
+
+
+2019,01,28,18:21:41:258215 pubSub Started
+2019,01,28,18:21:41:270563 ws1 restart
+2019,01,28,18:21:41:839544 ws1 opened
+2019,01,28,18:21:41:935117 raw message: { "type": "PONG" }
+
+
+2019,01,28,18:21:41:982740 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,28,18:26:40:560432 pubSub Started
+2019,01,28,18:26:40:562482 ws1 restart
+2019,01,28,18:26:41:442651 ws1 opened
+2019,01,28,18:26:41:553098 raw message: { "type": "PONG" }
+
+
+2019,01,28,18:26:41:593800 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,28,18:27:03:409521 pubSub Started
+2019,01,28,18:27:03:416761 ws1 restart
+2019,01,28,18:27:04:085854 ws1 opened
+2019,01,28,18:27:04:174296 raw message: { "type": "PONG" }
+
+
+2019,01,28,18:27:04:227367 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,28,18:27:49:538306 pubSub Started
+2019,01,28,18:27:49:545924 ws1 restart
+2019,01,28,18:27:50:166330 ws1 opened
+2019,01,28,18:27:50:284920 raw message: { "type": "PONG" }
+
+
+2019,01,28,18:27:50:310255 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,28,18:32:06:412362 raw message: { "type": "PONG" }
+
+
+2019,01,28,18:36:10:406416 raw message: { "type": "PONG" }
+
+
+2019,01,28,18:55:13:466333 pubSub Started
+2019,01,28,18:55:13:474540 ws1 restart
+2019,01,28,18:55:14:121327 ws1 opened
+2019,01,28,18:55:14:226651 raw message: { "type": "PONG" }
+
+
+2019,01,28,18:55:14:280850 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,28,18:59:23:390131 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:09:10:109699 pubSub Started
+2019,01,28,19:09:10:123967 ws1 restart
+2019,01,28,19:09:10:777075 ws1 opened
+2019,01,28,19:09:10:879091 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:09:10:934171 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,28,19:13:15:000347 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:17:34:088948 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:21:50:202085 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:25:58:252768 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:30:00:309490 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:34:10:480520 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:38:13:591626 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:42:26:718059 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:46:34:832969 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:50:53:990117 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:54:58:106982 raw message: { "type": "PONG" }
+
+
+2019,01,28,19:59:12:289115 raw message: { "type": "PONG" }
+
+
+2019,01,28,20:03:31:532561 raw message: { "type": "PONG" }
+
+
+2019,01,28,20:07:50:641399 raw message: { "type": "PONG" }
+
+
+2019,01,28,20:12:08:812339 raw message: { "type": "PONG" }
+
+
+2019,01,28,20:16:13:933175 raw message: { "type": "PONG" }
+
+
+2019,01,28,20:20:34:007588 raw message: { "type": "PONG" }
+
+
+2019,01,28,20:24:51:201435 raw message: { "type": "PONG" }
+
+
+2019,01,28,20:29:07:301731 raw message: { "type": "PONG" }
+
+
+2019,01,28,20:33:10:426743 raw message: { "type": "PONG" }
+
+
+2019,01,28,20:37:20:529889 raw message: { "type": "PONG" }
+
+
+2019,01,28,20:41:37:658090 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:04:38:898035 pubSub Started
+2019,01,28,21:04:38:907155 ws1 restart
+2019,01,28,21:04:39:575723 ws1 opened
+2019,01,28,21:04:39:667379 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:04:39:714541 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,28,21:08:56:811822 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:13:13:988569 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:17:17:074244 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:21:34:170372 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:25:40:173314 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:29:53:251278 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:34:09:452134 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:38:15:502406 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:42:19:677554 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:46:38:849317 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:50:49:944908 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:55:07:102496 raw message: { "type": "PONG" }
+
+
+2019,01,28,21:59:20:176352 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:03:39:316620 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:07:51:421095 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:12:04:494413 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:16:06:511519 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:20:17:538312 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:24:25:581303 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:28:32:647646 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:32:43:704965 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:36:51:756327 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:41:08:856774 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:45:23:927542 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:49:36:059643 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:53:47:181494 raw message: { "type": "PONG" }
+
+
+2019,01,28,22:58:06:336572 raw message: { "type": "PONG" }
+
+
+2019,01,28,23:02:17:482113 raw message: { "type": "PONG" }
+
+
+2019,01,28,23:06:32:659422 raw message: { "type": "PONG" }
+
+
+2019,01,28,23:10:38:741187 raw message: { "type": "PONG" }
+
+
+2019,01,28,23:14:49:843618 raw message: { "type": "PONG" }
+
+
+2019,01,29,18:33:02:675925 pubSub Started
+2019,01,29,18:33:02:685837 ws1 restart
+2019,01,29,18:33:03:393555 ws1 opened
+2019,01,29,18:33:03:490785 raw message: { "type": "PONG" }
+
+
+2019,01,29,18:33:03:518217 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,29,18:34:59:473334 pubSub Started
+2019,01,29,18:34:59:490087 ws1 restart
+2019,01,29,18:35:00:062086 ws1 opened
+2019,01,29,18:35:00:167504 raw message: { "type": "PONG" }
+
+
+2019,01,29,18:35:00:214710 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,29,18:39:01:839438 raw message: { "type": "PONG" }
+
+
+2019,01,29,18:43:03:508408 raw message: { "type": "PONG" }
+
+
+2019,01,29,18:47:08:202346 raw message: { "type": "PONG" }
+
+
+2019,01,29,18:51:09:368726 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"markusla2\",\"display_name\":\"markusla2\",\"channel_name\":\"oh_bother\",\"user_id\":\"91715853\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T18:51:09.305342802Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,18:51:09:376975 {"sub_plan": "1000", "time": "2019-01-29T18:51:09.305342802Z", "user_name": "markusla2", "sub_plan_name": "Channel Subscription (oh_bother)", "channel_name": "oh_bother", "context": "sub", "channel_id": "32178044", "user_id": "91715853", "display_name": "markusla2", "sub_message": {"emotes": null, "message": ""}, "months": 1}
+2019,01,29,18:51:09:377204using dispName: markusla2
+2019,01,29,18:51:14:924733 raw message: { "type": "PONG" }
+
+
+2019,01,29,18:51:58:494970 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T18:51:58.443379243Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"3000\",\"sub_plan_name\":\"Channel Subscription (oh_bother): $24.99 Sub\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,18:51:58:500596 {"sub_plan": "3000", "time": "2019-01-29T18:51:58.443379243Z", "user_name": "weckso", "sub_plan_name": "Channel Subscription (oh_bother): $24.99 Sub", "channel_name": "oh_bother", "context": "sub", "channel_id": "32178044", "user_id": "24593814", "display_name": "weckso", "sub_message": {"emotes": null, "message": ""}, "months": 1}
+2019,01,29,18:51:58:500855using dispName: weckso
+2019,01,29,18:55:17:578149 raw message: { "type": "PONG" }
+
+
+2019,01,29,18:55:27:149953 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"twiztedsizter\",\"display_name\":\"twiztedsizter\",\"channel_name\":\"oh_bother\",\"user_id\":\"32817109\",\"channel_id\":\"32178044\",\"recipient_id\":\"117531251\",\"recipient_user_name\":\"5volts\",\"recipient_display_name\":\"5volts\",\"time\":\"2019-01-29T18:55:27.089686419Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,18:55:27:156145 {"time": "2019-01-29T18:55:27.089686419Z", "user_name": "twiztedsizter", "channel_id": "32178044", "user_id": "32817109", "sub_message": {"emotes": null, "message": ""}, "months": 1, "sub_plan": "1000", "context": "subgift", "recipient_display_name": "5volts", "channel_name": "oh_bother", "recipient_id": "117531251", "sub_plan_name": "Channel Subscription (oh_bother)", "display_name": "twiztedsizter", "recipient_user_name": "5volts"}
+2019,01,29,18:55:27:156404using repName: 5volts
+2019,01,29,18:59:37:378453 raw message: { "type": "PONG" }
+
+
+2019,01,29,19:03:40:156787 raw message: { "type": "PONG" }
+
+
+2019,01,29,19:07:43:877421 raw message: { "type": "PONG" }
+
+
+2019,01,29,19:11:55:619979 raw message: { "type": "PONG" }
+
+
+2019,01,29,19:13:53:587838 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"forchex\",\"display_name\":\"Forchex\",\"channel_name\":\"oh_bother\",\"user_id\":\"41240253\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T19:13:53.527324523Z\",\"sub_message\":{\"message\":\"Board time bb\",\"emotes\":null},\"sub_plan\":\"2000\",\"sub_plan_name\":\"Channel Subscription (oh_bother): $9.99 Sub\",\"months\":3,\"context\":\"resub\"}"}}
+
+2019,01,29,19:13:53:598701 {"sub_plan": "2000", "time": "2019-01-29T19:13:53.527324523Z", "user_name": "forchex", "sub_plan_name": "Channel Subscription (oh_bother): $9.99 Sub", "channel_name": "oh_bother", "context": "resub", "channel_id": "32178044", "user_id": "41240253", "display_name": "Forchex", "sub_message": {"emotes": null, "message": "Board time bb"}, "months": 3}
+2019,01,29,19:13:53:598957using dispName: Forchex
+2019,01,29,19:14:56:823276 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"cordain99\",\"display_name\":\"Cordain99\",\"channel_name\":\"oh_bother\",\"user_id\":\"102231478\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T19:14:56.750713552Z\",\"sub_message\":{\"message\":\"yay BTS lives again! great job\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":15,\"context\":\"resub\"}"}}
+
+2019,01,29,19:14:56:830246 {"sub_plan": "1000", "time": "2019-01-29T19:14:56.750713552Z", "user_name": "cordain99", "sub_plan_name": "Channel Subscription (oh_bother)", "channel_name": "oh_bother", "context": "resub", "channel_id": "32178044", "user_id": "102231478", "display_name": "Cordain99", "sub_message": {"emotes": null, "message": "yay BTS lives again! great job"}, "months": 15}
+2019,01,29,19:14:56:830779using dispName: Cordain99
+2019,01,29,19:16:10:339517 raw message: { "type": "PONG" }
+
+
+2019,01,29,19:20:22:064052 raw message: { "type": "PONG" }
+
+
+2019,01,29,19:20:48:174873 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"vampner\",\"display_name\":\"Vampner\",\"channel_name\":\"oh_bother\",\"user_id\":\"70098539\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T19:20:48.106954747Z\",\"sub_message\":{\"message\":\"6 months! Look here I go burning again rbzFine\",\"emotes\":[{\"start\":39,\"end\":45,\"id\":1523811}]},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":6,\"context\":\"resub\"}"}}
+
+2019,01,29,19:20:48:185811 {"sub_plan": "1000", "time": "2019-01-29T19:20:48.106954747Z", "user_name": "vampner", "sub_plan_name": "Channel Subscription (oh_bother)", "channel_name": "oh_bother", "context": "resub", "channel_id": "32178044", "user_id": "70098539", "display_name": "Vampner", "sub_message": {"emotes": [{"id": 1523811, "start": 39, "end": 45}], "message": "6 months! Look here I go burning again rbzFine"}, "months": 6}
+2019,01,29,19:20:48:186072using dispName: Vampner
+2019,01,29,19:24:40:807112 raw message: { "type": "PONG" }
+
+
+2019,01,29,19:25:09:469489 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"sorego\",\"display_name\":\"Sorego\",\"channel_name\":\"oh_bother\",\"user_id\":\"12693546\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T19:25:09.395869372Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,19:25:09:475376 {"sub_plan": "1000", "time": "2019-01-29T19:25:09.395869372Z", "user_name": "sorego", "sub_plan_name": "Channel Subscription (oh_bother)", "channel_name": "oh_bother", "context": "sub", "channel_id": "32178044", "user_id": "12693546", "display_name": "Sorego", "sub_message": {"emotes": null, "message": ""}, "months": 1}
+2019,01,29,19:25:09:475618using dispName: Sorego
+2019,01,29,19:26:15:614954 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"tippecanoe_m86\",\"display_name\":\"tippecanoe_m86\",\"channel_name\":\"oh_bother\",\"user_id\":\"82293924\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T19:26:15.553976486Z\",\"sub_message\":{\"message\":\"Had to upgrade to Tier 2 for the occasion\",\"emotes\":null},\"sub_plan\":\"2000\",\"sub_plan_name\":\"Channel Subscription (oh_bother): $9.99 Sub\",\"months\":7,\"context\":\"resub\"}"}}
+
+2019,01,29,19:26:15:620548 {"sub_plan": "2000", "time": "2019-01-29T19:26:15.553976486Z", "user_name": "tippecanoe_m86", "sub_plan_name": "Channel Subscription (oh_bother): $9.99 Sub", "channel_name": "oh_bother", "context": "resub", "channel_id": "32178044", "user_id": "82293924", "display_name": "tippecanoe_m86", "sub_message": {"emotes": null, "message": "Had to upgrade to Tier 2 for the occasion"}, "months": 7}
+2019,01,29,19:26:15:620796using dispName: tippecanoe_m86
+2019,01,29,19:28:59:611694 raw message: { "type": "PONG" }
+
+
+2019,01,29,19:32:02:275875 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"189497747\",\"recipient_user_name\":\"scritzh\",\"recipient_display_name\":\"SCritzh\",\"time\":\"2019-01-29T19:32:02.206947989Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,19:32:02:286673 {"time": "2019-01-29T19:32:02.206947989Z", "user_name": "weckso", "channel_id": "32178044", "user_id": "24593814", "sub_message": {"emotes": null, "message": ""}, "months": 1, "sub_plan": "1000", "context": "subgift", "recipient_display_name": "SCritzh", "channel_name": "oh_bother", "recipient_id": "189497747", "sub_plan_name": "Channel Subscription (oh_bother)", "display_name": "weckso", "recipient_user_name": "scritzh"}
+2019,01,29,19:32:02:286927using repName: SCritzh
+2019,01,29,19:32:02:375589 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"36947253\",\"recipient_user_name\":\"madf0x\",\"recipient_display_name\":\"MadF0x\",\"time\":\"2019-01-29T19:32:02.309830821Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,19:32:02:382820 {"time": "2019-01-29T19:32:02.309830821Z", "user_name": "weckso", "channel_id": "32178044", "user_id": "24593814", "sub_message": {"emotes": null, "message": ""}, "months": 1, "sub_plan": "1000", "context": "subgift", "recipient_display_name": "MadF0x", "channel_name": "oh_bother", "recipient_id": "36947253", "sub_plan_name": "Channel Subscription (oh_bother)", "display_name": "weckso", "recipient_user_name": "madf0x"}
+2019,01,29,19:32:02:383117using repName: MadF0x
+2019,01,29,19:32:02:424743 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"126018495\",\"recipient_user_name\":\"david3chorvath\",\"recipient_display_name\":\"david3chorvath\",\"time\":\"2019-01-29T19:32:02.349069433Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,19:32:02:433254 {"time": "2019-01-29T19:32:02.349069433Z", "user_name": "weckso", "channel_id": "32178044", "user_id": "24593814", "sub_message": {"emotes": null, "message": ""}, "months": 1, "sub_plan": "1000", "context": "subgift", "recipient_display_name": "david3chorvath", "channel_name": "oh_bother", "recipient_id": "126018495", "sub_plan_name": "Channel Subscription (oh_bother)", "display_name": "weckso", "recipient_user_name": "david3chorvath"}
+2019,01,29,19:32:02:433730using repName: david3chorvath
+2019,01,29,19:32:02:495420 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"88599295\",\"recipient_user_name\":\"murderbits\",\"recipient_display_name\":\"murderbits\",\"time\":\"2019-01-29T19:32:02.36506518Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":2,\"context\":\"subgift\"}"}}
+
+2019,01,29,19:32:02:504651 {"time": "2019-01-29T19:32:02.36506518Z", "user_name": "weckso", "channel_id": "32178044", "user_id": "24593814", "sub_message": {"emotes": null, "message": ""}, "months": 2, "sub_plan": "1000", "context": "subgift", "recipient_display_name": "murderbits", "channel_name": "oh_bother", "recipient_id": "88599295", "sub_plan_name": "Channel Subscription (oh_bother)", "display_name": "weckso", "recipient_user_name": "murderbits"}
+2019,01,29,19:32:02:505114using repName: murderbits
+2019,01,29,19:32:02:561676 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"58448131\",\"recipient_user_name\":\"ya_mums_granny\",\"recipient_display_name\":\"Ya_mums_granny\",\"time\":\"2019-01-29T19:32:02.376347436Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,19:32:02:569426 {"time": "2019-01-29T19:32:02.376347436Z", "user_name": "weckso", "channel_id": "32178044", "user_id": "24593814", "sub_message": {"emotes": null, "message": ""}, "months": 1, "sub_plan": "1000", "context": "subgift", "recipient_display_name": "Ya_mums_granny", "channel_name": "oh_bother", "recipient_id": "58448131", "sub_plan_name": "Channel Subscription (oh_bother)", "display_name": "weckso", "recipient_user_name": "ya_mums_granny"}
+2019,01,29,19:32:02:569866using repName: Ya_mums_granny
+2019,01,29,19:32:02:632395 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"177275309\",\"recipient_user_name\":\"michael_t_mayer\",\"recipient_display_name\":\"Michael_T_Mayer\",\"time\":\"2019-01-29T19:32:02.517112027Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,19:32:02:640337 {"time": "2019-01-29T19:32:02.517112027Z", "user_name": "weckso", "channel_id": "32178044", "user_id": "24593814", "sub_message": {"emotes": null, "message": ""}, "months": 1, "sub_plan": "1000", "context": "subgift", "recipient_display_name": "Michael_T_Mayer", "channel_name": "oh_bother", "recipient_id": "177275309", "sub_plan_name": "Channel Subscription (oh_bother)", "display_name": "weckso", "recipient_user_name": "michael_t_mayer"}
+2019,01,29,19:32:02:640925using repName: Michael_T_Mayer
+2019,01,29,19:32:02:692099 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"97485928\",\"recipient_user_name\":\"dalorniano\",\"recipient_display_name\":\"Dalorniano\",\"time\":\"2019-01-29T19:32:02.600046889Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,19:32:02:699714 {"time": "2019-01-29T19:32:02.600046889Z", "user_name": "weckso", "channel_id": "32178044", "user_id": "24593814", "sub_message": {"emotes": null, "message": ""}, "months": 1, "sub_plan": "1000", "context": "subgift", "recipient_display_name": "Dalorniano", "channel_name": "oh_bother", "recipient_id": "97485928", "sub_plan_name": "Channel Subscription (oh_bother)", "display_name": "weckso", "recipient_user_name": "dalorniano"}
+2019,01,29,19:32:02:700163using repName: Dalorniano
+2019,01,29,19:32:02:789078 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"173820580\",\"recipient_user_name\":\"the_long_apple\",\"recipient_display_name\":\"the_long_apple\",\"time\":\"2019-01-29T19:32:02.608299062Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,19:32:02:803697 {"time": "2019-01-29T19:32:02.608299062Z", "user_name": "weckso", "channel_id": "32178044", "user_id": "24593814", "sub_message": {"emotes": null, "message": ""}, "months": 1, "sub_plan": "1000", "context": "subgift", "recipient_display_name": "the_long_apple", "channel_name": "oh_bother", "recipient_id": "173820580", "sub_plan_name": "Channel Subscription (oh_bother)", "display_name": "weckso", "recipient_user_name": "the_long_apple"}
+2019,01,29,19:32:02:804208using repName: the_long_apple
+2019,01,29,19:32:02:875823 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"139109732\",\"recipient_user_name\":\"ramranchceo\",\"recipient_display_name\":\"RamRanchCEO\",\"time\":\"2019-01-29T19:32:02.698992969Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,19:32:02:882428 {"time": "2019-01-29T19:32:02.698992969Z", "user_name": "weckso", "channel_id": "32178044", "user_id": "24593814", "sub_message": {"emotes": null, "message": ""}, "months": 1, "sub_plan": "1000", "context": "subgift", "recipient_display_name": "RamRanchCEO", "channel_name": "oh_bother", "recipient_id": "139109732", "sub_plan_name": "Channel Subscription (oh_bother)", "display_name": "weckso", "recipient_user_name": "ramranchceo"}
+2019,01,29,19:32:02:882881using repName: RamRanchCEO
+2019,01,29,19:32:03:861792 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"197522209\",\"recipient_user_name\":\"lolyfe_\",\"recipient_display_name\":\"LoLyfe_\",\"time\":\"2019-01-29T19:32:03.783857205Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,19:32:03:869008 {"time": "2019-01-29T19:32:03.783857205Z", "user_name": "weckso", "channel_id": "32178044", "user_id": "24593814", "sub_message": {"emotes": null, "message": ""}, "months": 1, "sub_plan": "1000", "context": "subgift", "recipient_display_name": "LoLyfe_", "channel_name": "oh_bother", "recipient_id": "197522209", "sub_plan_name": "Channel Subscription (oh_bother)", "display_name": "weckso", "recipient_user_name": "lolyfe_"}
+2019,01,29,19:32:03:869435using repName: LoLyfe_
+2019,01,29,19:33:06:830533 raw message: { "type": "PONG" }
+
+
+2019,01,29,19:37:18:602877 raw message: { "type": "PONG" }
+
+
+2019,01,29,19:38:23:972326 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"sausage_toes\",\"display_name\":\"sausage_toes\",\"channel_name\":\"oh_bother\",\"user_id\":\"76772591\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T19:38:23.905473451Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,19:38:23:978841 {"sub_plan": "1000", "time": "2019-01-29T19:38:23.905473451Z", "user_name": "sausage_toes", "sub_plan_name": "Channel Subscription (oh_bother)", "channel_name": "oh_bother", "context": "sub", "channel_id": "32178044", "user_id": "76772591", "display_name": "sausage_toes", "sub_message": {"emotes": null, "message": ""}, "months": 1}
+2019,01,29,19:38:23:979252using dispName: sausage_toes
+2019,01,29,20:27:02:566959 pubSub Started
+2019,01,29,20:27:02:575479 ws1 restart
+2019,01,29,20:27:03:354399 ws1 opened
+2019,01,29,20:27:03:448016 raw message: { "type": "PONG" }
+
+
+2019,01,29,20:27:03:501159 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,29,20:40:24:791866 pubSub Started
+2019,01,29,20:40:24:800106 ws1 restart
+2019,01,29,20:40:25:515025 ws1 opened
+2019,01,29,20:40:25:609563 raw message: { "type": "PONG" }
+
+
+2019,01,29,20:40:25:660468 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,29,20:50:25:686796 pubSub Started
+2019,01,29,20:50:25:700416 ws1 restart
+2019,01,29,20:50:26:306631 ws1 opened
+2019,01,29,20:50:26:400790 raw message: { "type": "PONG" }
+
+
+2019,01,29,20:50:26:437968 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,29,21:25:58:575623 pubSub Started
+2019,01,29,21:25:58:593152 ws1 restart
+2019,01,29,21:25:59:183908 ws1 opened
+2019,01,29,21:25:59:278718 raw message: { "type": "PONG" }
+
+
+2019,01,29,21:25:59:316701 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,29,21:30:11:002607 raw message: { "type": "PONG" }
+
+
+2019,01,29,21:34:14:542375 raw message: { "type": "PONG" }
+
+
+2019,01,29,21:38:18:079905 raw message: { "type": "PONG" }
+
+
+2019,01,29,21:39:11:043194 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"ananonymousgifter\",\"display_name\":\"An Anonymous Gifter\",\"channel_name\":\"oh_bother\",\"user_id\":\"274598607\",\"channel_id\":\"32178044\",\"recipient_id\":\"188801297\",\"recipient_user_name\":\"flatheadscrewdriver\",\"recipient_display_name\":\"FlatheadScrewdriver\",\"time\":\"2019-01-29T21:39:10.989372765Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,21:39:11:048781 {"time": "2019-01-29T21:39:10.989372765Z", "recipient_user_name": "flatheadscrewdriver", "user_id": "274598607", "channel_name": "oh_bother", "display_name": "An Anonymous Gifter", "sub_plan_name": "Channel Subscription (oh_bother)", "sub_message": {"message": "", "emotes": null}, "context": "subgift", "recipient_id": "188801297", "channel_id": "32178044", "recipient_display_name": "FlatheadScrewdriver", "user_name": "ananonymousgifter", "months": 1, "sub_plan": "1000"}
+2019,01,29,21:39:11:049035using repName: FlatheadScrewdriver
+2019,01,29,21:39:11:090997 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"channel_name\":\"oh_bother\",\"channel_id\":\"32178044\",\"recipient_id\":\"188801297\",\"recipient_user_name\":\"flatheadscrewdriver\",\"recipient_display_name\":\"FlatheadScrewdriver\",\"time\":\"2019-01-29T21:39:10.990851397Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"anonsubgift\"}"}}
+
+2019,01,29,21:39:11:091508 {"sub_message": {"message": "", "emotes": null}, "sub_plan_name": "Channel Subscription (oh_bother)", "channel_name": "oh_bother", "recipient_display_name": "FlatheadScrewdriver", "recipient_id": "188801297", "context": "anonsubgift", "time": "2019-01-29T21:39:10.990851397Z", "recipient_user_name": "flatheadscrewdriver", "channel_id": "32178044", "months": 1, "sub_plan": "1000"}
+2019,01,29,21:39:11:091698using repName: FlatheadScrewdriver
+2019,01,29,21:39:16:502330 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"tippecanoe_m86\",\"display_name\":\"tippecanoe_m86\",\"channel_name\":\"oh_bother\",\"user_id\":\"82293924\",\"channel_id\":\"32178044\",\"recipient_id\":\"144625188\",\"recipient_user_name\":\"meth\",\"recipient_display_name\":\"meth\",\"time\":\"2019-01-29T21:39:16.45002151Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,21:39:16:505567 {"time": "2019-01-29T21:39:16.45002151Z", "recipient_user_name": "meth", "user_id": "82293924", "channel_name": "oh_bother", "display_name": "tippecanoe_m86", "sub_plan_name": "Channel Subscription (oh_bother)", "sub_message": {"message": "", "emotes": null}, "context": "subgift", "recipient_id": "144625188", "channel_id": "32178044", "recipient_display_name": "meth", "user_name": "tippecanoe_m86", "months": 1, "sub_plan": "1000"}
+2019,01,29,21:39:16:505805using repName: meth
+2019,01,29,21:41:11:593534 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"weckso\",\"display_name\":\"weckso\",\"channel_name\":\"oh_bother\",\"user_id\":\"24593814\",\"channel_id\":\"32178044\",\"recipient_id\":\"134494835\",\"recipient_user_name\":\"follow_me_on_chaturbate\",\"recipient_display_name\":\"Follow_Me_On_Chaturbate\",\"time\":\"2019-01-29T21:41:11.540050801Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,21:41:11:599393 {"time": "2019-01-29T21:41:11.540050801Z", "recipient_user_name": "follow_me_on_chaturbate", "user_id": "24593814", "channel_name": "oh_bother", "display_name": "weckso", "sub_plan_name": "Channel Subscription (oh_bother)", "sub_message": {"message": "", "emotes": null}, "context": "subgift", "recipient_id": "134494835", "channel_id": "32178044", "recipient_display_name": "Follow_Me_On_Chaturbate", "user_name": "weckso", "months": 1, "sub_plan": "1000"}
+2019,01,29,21:41:11:599648using repName: Follow_Me_On_Chaturbate
+2019,01,29,21:42:26:677088 raw message: { "type": "PONG" }
+
+
+2019,01,29,22:31:07:850631 pubSub Started
+2019,01,29,22:31:07:868417 ws1 restart
+2019,01,29,22:31:08:463784 ws1 opened
+2019,01,29,22:31:08:568320 raw message: { "type": "PONG" }
+
+
+2019,01,29,22:31:08:603873 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,29,22:33:23:029190 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"getagripgoat\",\"display_name\":\"getagripgoat\",\"channel_name\":\"oh_bother\",\"user_id\":\"126970415\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T22:33:22.971972713Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"Prime\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,22:33:23:034857 {"sub_plan": "Prime", "channel_id": "32178044", "time": "2019-01-29T22:33:22.971972713Z", "user_name": "getagripgoat", "display_name": "getagripgoat", "context": "sub", "user_id": "126970415", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "channel_name": "oh_bother", "sub_message": {"message": "", "emotes": null}}
+2019,01,29,22:33:23:035109using dispName: getagripgoat
+2019,01,29,22:35:10:648863 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"hermann122\",\"display_name\":\"Hermann122\",\"channel_name\":\"oh_bother\",\"user_id\":\"41942664\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T22:35:10.591268982Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"Prime\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,22:35:10:654536 {"sub_plan": "Prime", "channel_id": "32178044", "time": "2019-01-29T22:35:10.591268982Z", "user_name": "hermann122", "display_name": "Hermann122", "context": "sub", "user_id": "41942664", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "channel_name": "oh_bother", "sub_message": {"message": "", "emotes": null}}
+2019,01,29,22:35:10:654801using dispName: Hermann122
+2019,01,29,22:35:20:316615 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"foldster\",\"display_name\":\"Foldster\",\"channel_name\":\"oh_bother\",\"user_id\":\"45298424\",\"channel_id\":\"32178044\",\"recipient_id\":\"81108783\",\"recipient_user_name\":\"zombology\",\"recipient_display_name\":\"Zombology\",\"time\":\"2019-01-29T22:35:20.259487419Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,22:35:20:319817 {"channel_id": "32178044", "user_name": "foldster", "recipient_id": "81108783", "sub_plan_name": "Channel Subscription (oh_bother)", "channel_name": "oh_bother", "sub_plan": "1000", "context": "subgift", "time": "2019-01-29T22:35:20.259487419Z", "recipient_display_name": "Zombology", "display_name": "Foldster", "user_id": "45298424", "recipient_user_name": "zombology", "months": 1, "sub_message": {"message": "", "emotes": null}}
+2019,01,29,22:35:20:320091using repName: Zombology
+2019,01,29,22:35:28:186032 raw message: { "type": "PONG" }
+
+
+2019,01,29,22:39:36:729803 raw message: { "type": "PONG" }
+
+
+2019,01,29,22:40:29:854260 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"ananonymousgifter\",\"display_name\":\"An Anonymous Gifter\",\"channel_name\":\"oh_bother\",\"user_id\":\"274598607\",\"channel_id\":\"32178044\",\"recipient_id\":\"27130909\",\"recipient_user_name\":\"cian2009\",\"recipient_display_name\":\"cian2009\",\"time\":\"2019-01-29T22:40:29.790920341Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,22:40:29:859766 {"channel_id": "32178044", "user_name": "ananonymousgifter", "recipient_id": "27130909", "sub_plan_name": "Channel Subscription (oh_bother)", "channel_name": "oh_bother", "sub_plan": "1000", "context": "subgift", "time": "2019-01-29T22:40:29.790920341Z", "recipient_display_name": "cian2009", "display_name": "An Anonymous Gifter", "user_id": "274598607", "recipient_user_name": "cian2009", "months": 1, "sub_message": {"message": "", "emotes": null}}
+2019,01,29,22:40:29:860056using repName: cian2009
+2019,01,29,22:40:29:895577 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"channel_name\":\"oh_bother\",\"channel_id\":\"32178044\",\"recipient_id\":\"27130909\",\"recipient_user_name\":\"cian2009\",\"recipient_display_name\":\"cian2009\",\"time\":\"2019-01-29T22:40:29.793538014Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"anonsubgift\"}"}}
+
+2019,01,29,22:40:29:896151 {"context": "anonsubgift", "sub_plan": "1000", "channel_id": "32178044", "time": "2019-01-29T22:40:29.793538014Z", "recipient_display_name": "cian2009", "recipient_id": "27130909", "months": 1, "recipient_user_name": "cian2009", "sub_plan_name": "Channel Subscription (oh_bother)", "channel_name": "oh_bother", "sub_message": {"message": "", "emotes": null}}
+2019,01,29,22:40:29:896404using repName: cian2009
+2019,01,29,22:41:10:884331 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"lostkarma1\",\"display_name\":\"LostKarma1\",\"channel_name\":\"oh_bother\",\"user_id\":\"136337156\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T22:41:10.82112002Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,22:41:10:889973 {"sub_plan": "1000", "channel_id": "32178044", "time": "2019-01-29T22:41:10.82112002Z", "user_name": "lostkarma1", "display_name": "LostKarma1", "context": "sub", "user_id": "136337156", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "channel_name": "oh_bother", "sub_message": {"message": "", "emotes": null}}
+2019,01,29,22:41:10:890246using dispName: LostKarma1
+2019,01,29,22:42:38:558497 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"paragonghost8\",\"display_name\":\"ParagonGhost8\",\"channel_name\":\"oh_bother\",\"user_id\":\"156993445\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T22:42:38.492023993Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,22:42:38:564282 {"sub_plan": "1000", "channel_id": "32178044", "time": "2019-01-29T22:42:38.492023993Z", "user_name": "paragonghost8", "display_name": "ParagonGhost8", "context": "sub", "user_id": "156993445", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "channel_name": "oh_bother", "sub_message": {"message": "", "emotes": null}}
+2019,01,29,22:42:38:564550using dispName: ParagonGhost8
+2019,01,29,22:43:31:150785 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"fettinger\",\"display_name\":\"fettinger\",\"channel_name\":\"oh_bother\",\"user_id\":\"65820064\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T22:43:31.088830649Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"Prime\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,22:43:31:156367 {"sub_plan": "Prime", "channel_id": "32178044", "time": "2019-01-29T22:43:31.088830649Z", "user_name": "fettinger", "display_name": "fettinger", "context": "sub", "user_id": "65820064", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "channel_name": "oh_bother", "sub_message": {"message": "", "emotes": null}}
+2019,01,29,22:43:31:156622using dispName: fettinger
+2019,01,29,22:43:45:471625 raw message: { "type": "PONG" }
+
+
+2019,01,29,22:43:52:904165 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"lilianapple\",\"display_name\":\"Lilianapple\",\"channel_name\":\"oh_bother\",\"user_id\":\"149849266\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T22:43:52.842202697Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,22:43:52:909752 {"sub_plan": "1000", "channel_id": "32178044", "time": "2019-01-29T22:43:52.842202697Z", "user_name": "lilianapple", "display_name": "Lilianapple", "context": "sub", "user_id": "149849266", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "channel_name": "oh_bother", "sub_message": {"message": "", "emotes": null}}
+2019,01,29,22:43:52:910007using dispName: Lilianapple
+2019,01,29,22:43:54:223337 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"mrthicdick\",\"display_name\":\"MrThicDick\",\"channel_name\":\"oh_bother\",\"user_id\":\"44919531\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T22:43:54.1510805Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"Prime\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,22:43:54:223940 {"sub_plan": "Prime", "channel_id": "32178044", "time": "2019-01-29T22:43:54.1510805Z", "user_name": "mrthicdick", "display_name": "MrThicDick", "context": "sub", "user_id": "44919531", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "channel_name": "oh_bother", "sub_message": {"message": "", "emotes": null}}
+2019,01,29,22:43:54:224162using dispName: MrThicDick
+2019,01,29,22:47:09:134130 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"hymao\",\"display_name\":\"hymao\",\"channel_name\":\"oh_bother\",\"user_id\":\"29176221\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T22:47:09.068678049Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,22:47:09:139795 {"sub_plan": "1000", "channel_id": "32178044", "time": "2019-01-29T22:47:09.068678049Z", "user_name": "hymao", "display_name": "hymao", "context": "sub", "user_id": "29176221", "sub_plan_name": "Channel Subscription (oh_bother)", "months": 1, "channel_name": "oh_bother", "sub_message": {"message": "", "emotes": null}}
+2019,01,29,22:47:09:140043using dispName: hymao
+2019,01,29,22:47:53:020401 raw message: { "type": "PONG" }
+
+
+2019,01,29,22:52:07:587593 raw message: { "type": "PONG" }
+
+
+2019,01,29,22:55:24:252942 pubSub Started
+2019,01,29,22:55:24:254492 ws1 restart
+2019,01,29,22:55:24:883557 ws1 opened
+2019,01,29,22:55:24:973822 raw message: { "type": "PONG" }
+
+
+2019,01,29,22:55:25:022658 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,29,22:59:26:520597 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:02:45:450978 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"threemares\",\"display_name\":\"threemares\",\"channel_name\":\"oh_bother\",\"user_id\":\"210690993\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T23:02:45.390739372Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"2000\",\"sub_plan_name\":\"Channel Subscription (oh_bother): $9.99 Sub\",\"months\":4,\"context\":\"resub\"}"}}
+
+2019,01,29,23:02:45:451853 {"user_id": "210690993", "channel_id": "32178044", "context": "resub", "channel_name": "oh_bother", "display_name": "threemares", "user_name": "threemares", "months": 4, "sub_plan_name": "Channel Subscription (oh_bother): $9.99 Sub", "time": "2019-01-29T23:02:45.390739372Z", "sub_message": {"message": "", "emotes": null}, "sub_plan": "2000"}
+2019,01,29,23:02:45:452238using dispName: threemares
+2019,01,29,23:03:50:641605 pubSub Started
+2019,01,29,23:03:50:648195 ws1 restart
+2019,01,29,23:03:51:125157 ws1 opened
+2019,01,29,23:03:51:223927 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:03:51:259610 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,29,23:07:54:816922 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:11:57:432172 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:16:11:035991 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:16:16:805672 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"minimushroomman\",\"display_name\":\"Minimushroomman\",\"channel_name\":\"oh_bother\",\"user_id\":\"26637036\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T23:16:16.739335283Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"Prime\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,23:16:16:819120 {"time": "2019-01-29T23:16:16.739335283Z", "channel_id": "32178044", "sub_message": {"message": "", "emotes": null}, "sub_plan_name": "Channel Subscription (oh_bother)", "user_name": "minimushroomman", "context": "sub", "display_name": "Minimushroomman", "user_id": "26637036", "months": 1, "sub_plan": "Prime", "channel_name": "oh_bother"}
+2019,01,29,23:16:16:819371using dispName: Minimushroomman
+2019,01,29,23:17:01:793459 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"murderbits\",\"display_name\":\"murderbits\",\"channel_name\":\"oh_bother\",\"user_id\":\"88599295\",\"channel_id\":\"32178044\",\"recipient_id\":\"412445432\",\"recipient_user_name\":\"ejaculating_toddler\",\"recipient_display_name\":\"EJACULATING_TODDLER\",\"time\":\"2019-01-29T23:17:01.731409431Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,23:17:01:798964 {"recipient_id": "412445432", "user_id": "88599295", "recipient_user_name": "ejaculating_toddler", "recipient_display_name": "EJACULATING_TODDLER", "sub_plan": "1000", "months": 1, "sub_message": {"message": "", "emotes": null}, "time": "2019-01-29T23:17:01.731409431Z", "sub_plan_name": "Channel Subscription (oh_bother)", "user_name": "murderbits", "context": "subgift", "display_name": "murderbits", "channel_id": "32178044", "channel_name": "oh_bother"}
+2019,01,29,23:17:01:799228using repName: EJACULATING_TODDLER
+2019,01,29,23:20:17:609413 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:22:35:780625 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"threemares\",\"display_name\":\"threemares\",\"channel_name\":\"oh_bother\",\"user_id\":\"210690993\",\"channel_id\":\"32178044\",\"recipient_id\":\"48891633\",\"recipient_user_name\":\"ceebob\",\"recipient_display_name\":\"CeeBob\",\"time\":\"2019-01-29T23:22:35.707600809Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,23:22:35:788966 {"recipient_id": "48891633", "user_id": "210690993", "recipient_user_name": "ceebob", "recipient_display_name": "CeeBob", "sub_plan": "1000", "months": 1, "sub_message": {"message": "", "emotes": null}, "time": "2019-01-29T23:22:35.707600809Z", "sub_plan_name": "Channel Subscription (oh_bother)", "user_name": "threemares", "context": "subgift", "display_name": "threemares", "channel_id": "32178044", "channel_name": "oh_bother"}
+2019,01,29,23:22:35:789217using repName: CeeBob
+2019,01,29,23:24:21:243413 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:28:40:933255 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:31:25:080781 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"caldinea\",\"display_name\":\"Caldinea\",\"channel_name\":\"oh_bother\",\"user_id\":\"44863403\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T23:31:25.006402158Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,23:31:25:089282 {"time": "2019-01-29T23:31:25.006402158Z", "channel_id": "32178044", "sub_message": {"message": "", "emotes": null}, "sub_plan_name": "Channel Subscription (oh_bother)", "user_name": "caldinea", "context": "sub", "display_name": "Caldinea", "user_id": "44863403", "months": 1, "sub_plan": "1000", "channel_name": "oh_bother"}
+2019,01,29,23:31:25:089560using dispName: Caldinea
+2019,01,29,23:33:01:575622 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:33:46:248667 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"roundingerror\",\"display_name\":\"RoundingError\",\"channel_name\":\"oh_bother\",\"user_id\":\"94866656\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T23:33:46.181958073Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,23:33:46:261594 {"time": "2019-01-29T23:33:46.181958073Z", "channel_id": "32178044", "sub_message": {"message": "", "emotes": null}, "sub_plan_name": "Channel Subscription (oh_bother)", "user_name": "roundingerror", "context": "sub", "display_name": "RoundingError", "user_id": "94866656", "months": 1, "sub_plan": "1000", "channel_name": "oh_bother"}
+2019,01,29,23:33:46:261844using dispName: RoundingError
+2019,01,29,23:37:05:152385 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:37:28:652247 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"giggleton\",\"display_name\":\"Giggleton\",\"channel_name\":\"oh_bother\",\"user_id\":\"28657060\",\"channel_id\":\"32178044\",\"time\":\"2019-01-29T23:37:28.590555907Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,29,23:37:28:665597 {"time": "2019-01-29T23:37:28.590555907Z", "channel_id": "32178044", "sub_message": {"message": "", "emotes": null}, "sub_plan_name": "Channel Subscription (oh_bother)", "user_name": "giggleton", "context": "sub", "display_name": "Giggleton", "user_id": "28657060", "months": 1, "sub_plan": "1000", "channel_name": "oh_bother"}
+2019,01,29,23:37:28:665860using dispName: Giggleton
+2019,01,29,23:41:12:775358 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:44:17:242530 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"foldster\",\"display_name\":\"Foldster\",\"channel_name\":\"oh_bother\",\"user_id\":\"45298424\",\"channel_id\":\"32178044\",\"recipient_id\":\"413164862\",\"recipient_user_name\":\"lesbaintoelicker\",\"recipient_display_name\":\"lesbaintoelicker\",\"time\":\"2019-01-29T23:44:17.17204066Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"subgift\"}"}}
+
+2019,01,29,23:44:17:250752 {"recipient_id": "413164862", "user_id": "45298424", "recipient_user_name": "lesbaintoelicker", "recipient_display_name": "lesbaintoelicker", "sub_plan": "1000", "months": 1, "sub_message": {"message": "", "emotes": null}, "time": "2019-01-29T23:44:17.17204066Z", "sub_plan_name": "Channel Subscription (oh_bother)", "user_name": "foldster", "context": "subgift", "display_name": "Foldster", "channel_id": "32178044", "channel_name": "oh_bother"}
+2019,01,29,23:44:17:251022using repName: lesbaintoelicker
+2019,01,29,23:45:19:604910 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:49:33:236233 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:53:35:910417 raw message: { "type": "PONG" }
+
+
+2019,01,29,23:57:48:516563 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:02:02:162139 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:06:08:807182 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:10:10:453700 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:14:28:134704 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:18:47:799451 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:22:53:447859 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:27:00:081001 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:31:16:750031 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:35:24:436634 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:39:33:112997 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:39:43:690894 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"afrazzle\",\"display_name\":\"Afrazzle\",\"channel_name\":\"oh_bother\",\"user_id\":\"54469953\",\"channel_id\":\"32178044\",\"time\":\"2019-01-30T00:39:43.615988218Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"1000\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,30,00:39:43:699353 {"time": "2019-01-30T00:39:43.615988218Z", "channel_id": "32178044", "sub_message": {"message": "", "emotes": null}, "sub_plan_name": "Channel Subscription (oh_bother)", "user_name": "afrazzle", "context": "sub", "display_name": "Afrazzle", "user_id": "54469953", "months": 1, "sub_plan": "1000", "channel_name": "oh_bother"}
+2019,01,30,00:39:43:699605using dispName: Afrazzle
+2019,01,30,00:43:49:773472 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:48:06:470405 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:52:11:171852 raw message: { "type": "PONG" }
+
+
+2019,01,30,00:56:20:851795 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:00:31:499556 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:04:49:184148 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:07:37:033639 pubSub Started
+2019,01,30,01:07:37:040197 ws1 restart
+2019,01,30,01:07:37:544752 ws1 opened
+2019,01,30,01:07:37:637429 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:07:37:687973 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,30,01:11:44:206830 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:16:03:832381 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:20:22:510669 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:24:29:184301 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:28:31:807565 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:28:56:204207 raw message: {"type":"MESSAGE","data":{"topic":"channel-subscribe-events-v1.32178044","message":"{\"user_name\":\"spamshot_\",\"display_name\":\"spamshot_\",\"channel_name\":\"oh_bother\",\"user_id\":\"117580260\",\"channel_id\":\"32178044\",\"time\":\"2019-01-30T01:28:56.150293411Z\",\"sub_message\":{\"message\":\"\",\"emotes\":null},\"sub_plan\":\"Prime\",\"sub_plan_name\":\"Channel Subscription (oh_bother)\",\"months\":1,\"context\":\"sub\"}"}}
+
+2019,01,30,01:28:56:207394 {"context": "sub", "months": 1, "time": "2019-01-30T01:28:56.150293411Z", "sub_plan": "Prime", "channel_name": "oh_bother", "user_name": "spamshot_", "sub_plan_name": "Channel Subscription (oh_bother)", "user_id": "117580260", "display_name": "spamshot_", "channel_id": "32178044", "sub_message": {"emotes": null, "message": ""}}
+2019,01,30,01:28:56:207628using dispName: spamshot_
+2019,01,30,01:29:26:326503 pubSub Started
+2019,01,30,01:29:26:336162 ws1 restart
+2019,01,30,01:29:26:867489 ws1 opened
+2019,01,30,01:29:26:955192 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:29:27:017031 raw message: {"type":"RESPONSE","error":"","nonce":"e4t5v345nz3sm"}
+
+2019,01,30,01:33:30:609557 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:37:32:238222 raw message: { "type": "PONG" }
+
+
+2019,01,30,01:41:52:934577 raw message: { "type": "PONG" }
+
+

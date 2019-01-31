@@ -14,6 +14,7 @@ from pubSubListener import ws1_start, pingTwitchServersToKeepTheConnectionAliveT
 from frontPanel import Btn_Red, Btn_Blk, LED_BB_Red, LED_BB_Grn, LED_RB_Red, LED_Grn, LED_Red, LED_RB_Grn
 from ohShit import stopit
 import consoleClass
+from consoleClass import consoleStuff
 
 #for testing
 #from dbMaker import makeDb 
@@ -29,13 +30,16 @@ placed = settings.namePlaced
 gcode = settings.nameGcode
 burnt = settings.nameBurnt
 
+def runConsole():
+    while not threadQuit:
+        consoleStuff()
+        
 def runPlace():
     while not threadQuit:
         noNotPlaced = Sub.select().where(Sub.status==entered).count()
         
         if noNotPlaced > 0:
             placeNames()
-
 
 def deraLict():
     noNotGd = Sub.select().where(Sub.status==placed).count()
@@ -150,7 +154,7 @@ if __name__ == "__main__":
         Thread.daemon = True
 
         #start console thread
-        consoleClass.consoleStuff()
+        Thread(target=runConsole).start()
         
         #check if there are derelict entries
         deraLict()
